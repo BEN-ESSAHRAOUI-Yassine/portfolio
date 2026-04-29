@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: yassine-portfolio
+    env: php
+    buildCommand: "composer install"
+    startCommand: "php artisan serve --host=0.0.0.0 --port=10000"
